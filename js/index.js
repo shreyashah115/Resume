@@ -46,13 +46,13 @@ var app = angular.module('resume', [])
             ]
         }, {
             types: [
-				'C++',
+				'GoLang',
                 'CSS',
 				'MySQL'
             ]
         }, {
             types: [
-                'Java',
+                'C',
                 'JSON',
                 'jQuery',
             ]
@@ -75,12 +75,29 @@ var app = angular.module('resume', [])
             types: [
                 'Flask',
 				'MongoDB',
-				'Android Studio'
+				'Kubernetes'
             ]
         }];
 })
     .controller('organizationCtrl', function ($scope) {
     $scope.organizations = [
+        {
+            name: 'Verloop',
+            url: 'https://verloop.io/',
+            positions: [{
+                    title: 'Forward Deployed Engineer',
+                    responsibilities: [
+                        'Developed a dashboard for Verloop using MeteorJS and GoLang, which displayed different analysis and calculations related to the chatbot conversations on Verloop’s platform.',
+						'Worked on integrating Verloop’s chatbot with client’s systems as per the requirements gathered from client-side.',
+						'Created webhooks and integrated them with REST APIs using the Flask framework.',
+                        'Implemented Redis and Celery for multiple chatbot flows.',
+						'Continuous integration and refactoring of old Python code to enhance and increase the scalability of the system.',
+						'Made deployments on Google Cloud Platform using Kubernetes.',
+                        'Was responsible to review and merge code on GitHub for my peers.'
+                    ]
+                }],
+            dates: 'February 2019 - Present'
+        },
         {
             name: 'Frappe Technologies, Pvt. Ltd.',
             url: 'https://frappe.io/',
@@ -96,7 +113,7 @@ var app = angular.module('resume', [])
                         'Version control with Git.'
                     ]
                 }],
-            dates: 'August 2017 - Present'
+            dates: 'August 2017 - December 2018'
         }
     ];
 })
