@@ -124,6 +124,18 @@ var app = angular.module('resume', [])
             url: 'https://chatbot.shreyanow.space',
 			description: 'Developed a chatbot which chats with the user, takes orders for pizza, provides tracking number which can be further used to track the order placed. Used Django framework along with SQLite database to store details and vanilla JavaScript for the UI, deployed on the server using Nginx.'
         },
+		{
+            name: 'Expense Manager App',
+			url: 'https://github.com/shreyashah115/Expenso',
+			description: 'Developed under the MEAN Stack environment along with CSS and Bootstrap\
+			framework, calculates your daily expenses, stores them in the database and\
+			retrieves it for you to manage your budget.'
+		},
+		{
+            name: 'Inventory Management',
+			url: 'https://github.com/shreyashah115/InventoryApp',
+			description: 'Developed using the Flask web framework, Html and AngularJS, like a simple point on sale system, which helps the shop owner to add, modify and remove the products, along with an option to view the updated amount of products '
+        },
         {
 			name: 'Credit card reader using webcam',
 			description: 'Developed for a design engineering project, payments for online transactions could be done using webcam which recognizes the user\'s face using OpenCV, matches with the MySQL database and authorizes the payment.'
@@ -139,18 +151,6 @@ var app = angular.module('resume', [])
             url: 'https://github.com/shreyashah115/Contactlistapp',
             description: 'Developed under the MEAN Stack environment, stores details of a contact,\
 			allows to edit, update and delete.'
-		},
-		{
-            name: 'Expense Manager App',
-			url: 'https://github.com/shreyashah115/Expenso',
-			description: 'Developed under the MEAN Stack environment along with CSS and Bootstrap\
-			framework, calculates your daily expenses, stores them in the database and\
-			retrieves it for you to manage your budget.'
-		},
-		{
-            name: 'Inventory Management',
-			url: 'https://github.com/shreyashah115/InventoryApp',
-			description: 'Developed using the Flask web framework, Html and AngularJS, like a simple point on sale system, which helps the shop owner to add, modify and remove the products, along with an option to view the updated amount of products '
-        }
+		}
     ];
 });
