@@ -30,11 +30,11 @@ var app = angular.module('resume', [])
     .controller('educationCtrl', function ($scope) {
     $scope.schools = [{
             name: 'Bits Edu Campus',
-            program: 'Computer Science and Engineering',
-            city: 'Vadodara',
-			state: 'Gujarat',
+            program: 'Bachelor of Engineering - Computer Science and Engineering',
+            city: '',
+			state: 'Gujarat Technological University',
 			dates: '2013 - 2017',
-			cgpa: '8.01 CGPA' 
+			cgpa: '8.06 CGPA' 
         }];
 })
     .controller('languagesCtrl', function ($scope) {
@@ -119,6 +119,11 @@ var app = angular.module('resume', [])
 })
     .controller('projectsCtrl', function ($scope) {
     $scope.projects = [
+        {
+            name: 'Chatbot for ordering Pizza',
+            url: 'https://chatbot.shreyanow.space',
+			description: 'Developed a chatbot which chats with the user, takes orders for pizza, provides tracking number which can be further used to track the order placed. Used Django framework along with SQLite database to store details and vanilla JavaScript for the UI, deployed on the server using Nginx.'
+        },
         {
 			name: 'Credit card reader using webcam',
 			description: 'Developed for a design engineering project, payments for online transactions could be done using webcam which recognizes the user\'s face using OpenCV, matches with the MySQL database and authorizes the payment.'
