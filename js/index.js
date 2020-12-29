@@ -118,7 +118,7 @@ var app = angular
     $scope.projects = [
       {
         name: "Chatbot for ordering Pizza",
-        url: "https://chatbot.shreyanow.space",
+        url: "https://github.com/shreyashah115/PizzaHere",
         description:
           "Developed a chatbot which chats with the user, takes orders for pizza, provides tracking number which can be further used to track the order placed. Used Django framework along with SQLite database to store details and vanilla JavaScript for the UI, deployed on the server using Nginx.",
       },
