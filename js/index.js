@@ -87,7 +87,7 @@ var app = angular
               "Delegated and assigned tasks to the teammates meanwhile helped the team with various issues and improvisations.",
               "Handled continuous integration and refactoring of old Python code to enhance and increase the scalability of the system.",
               "Scheduled and monitored deployments on Google Cloud Platform using Kubernetes.",
-              "Co-ordinated and headed meetings with various clients to discuss their Chatbot requirements",
+              "Co-ordinated and headed meetings with various clients to discuss their Chatbot requirements along with providing solutions.",
             ],
           },
         ],
