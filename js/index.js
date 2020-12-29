@@ -49,7 +49,7 @@ var app = angular
         types: ["Python", "JavaScript", "Html"],
       },
       {
-        types: ["ReactJS", "CSS", "MySQL"],
+        types: ["Golang", "CSS", "MySQL"],
       },
       {
         types: ["C", "JSON", "jQuery"],
