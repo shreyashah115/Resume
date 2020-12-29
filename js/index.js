@@ -100,9 +100,9 @@ var app = angular
           {
             title: "Software Engineer",
             responsibilities: [
-              "Developed and designed features for their flagship open source   product - ERPNext, which is built on their home ground JS framework - Frappe.",
-              "A hands-on experience with Frappe framework  which is a full stack web application framework written in Python, Javascript, HTML/CSS with MySQL as the backend.",
-              "Wrote UI test cases (in JavaScript) as well as Unit test cases (in Python) to test and debug features, documented scripts and features.",
+              "Developed and designed features for their flagship open source product - ERPNext, which is built on their home ground framework - Frappe.",
+              "A hands-on experience with Frappe framework  which is a full stack web application framework written in Python, NodeJS, HTML/CSS with MySQL as the backend.",
+              "Wrote UI test cases (in NodeJS) as well as Unit test cases (in Python) to test and debug features, documented scripts and features.",
               "Identified and communicated technical problems, processes and solutions.",
               "Assisted in the collection and documentation of user requirements.",
               "One of the key members in the development of their eagerly awaited and massive release - ERPNext version 11.",
